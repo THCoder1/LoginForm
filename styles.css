@@ -1,0 +1,40 @@
+body {
+  background: url(/img/bg_weed.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.loginPic {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  position: center;
+  top: -50px;
+  left: calc(50% - -50px);
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(183, 183, 221);
+}
+
+hr {
+  border-top: 1px solid rgb(0, 0, 170);
+}
